@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 2px;
+    padding: 0px;
+    background-color: #ecdbdb;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    text-align: center;
+    color: #880c0c;
+}
+
+h1::before {
+    content: "Estudo Sobre: ";
+    color: #af1010;
+    font-size: 40px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    /* background-color: ; */
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #af1010;
+    padding: 10px;
+}
+
+
+nav ul li a:hover {
+    background-color: #770000;
+    border-radius: 13px;
+}
+
+nav ul li a:active {
+    background-color: #a52a2ad0;
+}
+
+
+p::first-letter {
+    color: #5f0303;
+    font-weight: 900;
+    font-size: 1.2em;
+}
+
+p::selection {
+    background-color: #520000;
+    color: #880c0c;
+}
+
+p {
+    font-size: 25px;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+img {
+    width: 500px;
+    height: 400px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+header {
+    background-color: #e600001e;
+    padding: 15px;
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin-top: 23px;
+    margin-bottom: 23px;
+    margin: 0 auto;  
+}
+
+
+table,
+th,
+td {
+    border: 3px solid #bd0606;
+    padding: 15px;
+    text-align: left;
+}
+
+footer {
+    background-color: #e98b8b;
+    padding-bottom: 1px;
+}
+
+footer p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+@media(max-width:768px) {
+    img {
+        width: 350px;
+    }
+
+    nav ul li a {
+        display: contents;
+    }
+
+    p {
+        font-size: 20px;
+        text-align: center;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+}
